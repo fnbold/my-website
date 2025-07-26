@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نام شما - صفحه شخصی</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Tahoma', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: #f0f0f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .contact {
+            text-align: center;
+        }
+        
+        .contact a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .contact a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>نام شما</h1>
+            <p>فریلنسر و توسعه‌دهنده وب</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>درباره من</h2>
+                <p>
+                    سلام! من یک توسعه‌دهنده وب و فریلنسر هستم. 
+                    علاقه‌مند به یادگیری تکنولوژی‌های جدید و ایجاد وب‌سایت‌های زیبا و کاربردی.
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2>مهارت‌ها</h2>
+                <div class="skills">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">طراحی UI/UX</span>
+                    <span class="skill">ردیابی مشکلات</span>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>خدمات</h2>
+                <ul>
+                    <li>طراحی وب‌سایت‌های شخصی و شرکتی</li>
+                    <li>توسعه فرانت‌اند با HTML/CSS/JavaScript</li>
+                    <li>طراحی ریسپانسیو (سازگار با موبایل)</li>
+                    <li>بهینه‌سازی سایت برای سرعت و SEO</li>
+                </ul>
+            </div>
+            
+            <div class="section contact">
+                <h2>تماس با من</h2>
+                <a href="mailto:email@example.com">ارسال ایمیل</a>
+                <a href="tel:+989123456789">تماس تلفنی</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 - تمامی حقوق محفوظ است</p>
+        </div>
+    </div>
+</body>
+</html>
